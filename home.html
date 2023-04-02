@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gym Class Booking</title>
+    <style>
+      /* Styles for header navigation bar */
+      .navbar {
+        background-color: #8B4513;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        z-index: 1;
+      }
+      .navbar a {
+        display: flex;
+        align-items: center;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+      }
+      /* Change the link color on hover */
+      .navbar a:hover {
+        background-color: #8B4513;
+      }
+      /* Styles for slide background */
+      .slide {
+        width: 100%;
+        height: 600px;
+        background-image: url('IMG/Background2.jpg'); /* Change this to the file path of your image */
+        background-size: cover;
+        background-position: center;
+        margin-top: 64px;
+      }
+      /* Styles for welcome message */
+      .welcome {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #8B4513;
+        font-size: 3rem;
+        font-weight: bold;
+        text-align: center;
+        z-index: 1;
+      }
+      /* Styles for About button */
+      .about {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #8B4513;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.5rem;
+        z-index: 1;
+      }
+      /* Change the button color on hover */
+      .about:hover {
+        background-color: #8B4513;
+      }
+      /* Styles for footer */
+      .footer {
+        background-color: #8B4513;
+        color: white;
+        text-align: right;
+        padding: 10px 20px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        z-index: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header navigation bar -->
+    <div class="navbar">
+      <a href="home.html">Home</a>
+      <a href="index1.html">Book Class</a>
+      <a href="index.html">About</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="index2.html">Workouts</a>
+    </div>
+    <!-- Slide background -->
+    <div class="slide"></div>
+    <!-- Welcome message -->
+    <div class="welcome">
+      <p>WELCOME TO PEAKFIT</p>
+    </div>
+    <!-- About button -->
+    <a href="index.html" class="about">About</a>
+    <!-- Footer -->
+    <div class="footer">
+      &copy; 2023 PeakFit Gym
+    </div>
+  </body>
+</html>
